@@ -19,7 +19,7 @@ export default function Favoritos() {
     <>
     <div className="py-10 px-28">
         <h2 className="text-2xl font-bold">Filmes para assistir</h2>
-        <div className="flex justify-start mb-10">
+        <div className="flex justify-start mb-10 overflow-x-auto scroll-style">
           {filmes.length > 0 ?
           filmes.map((filme) => (
             <MovieCard key={filme.id}{...filme}/>
@@ -29,7 +29,7 @@ export default function Favoritos() {
         </div>
 
         <h2 className="text-2xl font-bold">Filmes assistidos</h2>
-        <div className="flex justify-start">
+        <div className="flex justify-start overflow-x-auto scroll-style">
           {assistidos.length > 0 ?
           assistidos.map((filme) => (
             <MovieCard key={filme.id}{...filme}/>
