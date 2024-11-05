@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.active{
+  border-bottom: 2px solid black;
+  border-radius: 3px;
+}
+
+.scroll-style {
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #626262 #000000;
+  margin-bottom: 30px;
+}
+
+
