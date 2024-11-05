@@ -1,4 +1,4 @@
-## **🎬 Portal de Filmes - React**
+## **🎬 Portal de Filmes - React(Vite)**
 Este é um portal de filmes desenvolvido em React, utilizando Tailwind CSS para estilização e React Router DOM para navegação entre as páginas. O projeto consome dados da API do The Movie Database (TMDb), permitindo exibir informações detalhadas sobre filmes, como título, sinopse, classificação, entre outros.
 
 ## **🛠️ Tecnologias Utilizadas**:
