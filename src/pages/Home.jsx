@@ -35,9 +35,9 @@ export default function Home(){
 
                 <BemVindo/>
                 
-                <CardContainer titulo="Melhores Filmes">
+                <CardContainer titulo="Filmes Populares">
                     {filmes
-                    .filter(filmes => filmes.vote_average >= 7.0)
+                    .filter(filmes => filmes.popularity >= 1500)
                     .map(filmes=>(
                         <MovieCard key={filmes.id} {...filmes}/>
                     ))}
