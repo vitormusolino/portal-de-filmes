@@ -1,8 +1,16 @@
-# React + Vite
+## **🎬 Portal de Filmes - React**
+Este é um portal de filmes desenvolvido em React, utilizando Tailwind CSS para estilização e React Router DOM para navegação entre as páginas. O projeto consome dados da API do The Movie Database (TMDb), permitindo exibir informações detalhadas sobre filmes, como título, sinopse, classificação, entre outros.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## **🛠️ Tecnologias Utilizadas**:
 
-Currently, two official plugins are available:
+React: Biblioteca JavaScript para construir interfaces de usuário.
+Tailwind CSS: Framework CSS utilitário para uma estilização rápida e customizável.
+React Router DOM: Biblioteca para navegação entre páginas dentro da aplicação React.
+TMDb API: Fonte dos dados dos filmes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **📋 Funcionalidades**:
+
+Exibição de filmes populares na página inicial.
+Detalhes completos sobre cada filme, como sinopse, elenco, data de lançamento, etc.
+Navegação entre diferentes páginas usando React Router DOM.
+Filtros de pesquisa para encontrar filmes por nome ou por categoria.
